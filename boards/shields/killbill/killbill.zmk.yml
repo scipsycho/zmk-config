@@ -1,0 +1,13 @@
+file_format: "1"
+id: killbill
+name: Killbill
+type: shield
+url: https://github.com/scipsycho/zmk-config
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+siblings:
+  - killbill_left
+  - killbill_right
